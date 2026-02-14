@@ -1,7 +1,6 @@
 # 🚗 BPARK – Automated Parking Management System
 
-BPARK is an automated parking management system developed as a **semester project** for the course  
-**Software Engineering Methods**.
+BPARK is an automated parking management system developed as a **semester project** 
 
 The system is designed to manage an automated parking facility, including vehicle drop-off and pickup,
 subscriber management, parking reservations, and operational reporting.
@@ -68,48 +67,3 @@ The system is developed in a way that allows **easy migration to Web and Mobile 
 - Relational Database (SQL)
 - Client–Server architecture
 
----
-
-## 📌 Project Phase
-
-This repository implements **Phase 1** of the project:
-- Fully functional prototype
-- Local network usage only
-- Simulated external hardware
-- Desktop-based user interface
-
----
-
-## 👥 Team
-
-Developed as a **group project**, with all members participating in:
-- System analysis
-- Design
-- Implementation
-- Testing
-
----
-
-## 📄 Documentation
-
-- System requirements and specification
-- UML diagrams
-- Acceptance test cases
-- Design and architectural decisions
-
-(See the `docs/` folder for more details.)
-
----
-
-## 🚀 Future Work
-
-- Web-based interface
-- Mobile application
-- Real hardware integration
-- Internet-based access
-
----
-
-## 📜 License
-
-This project was developed for academic purposes.
