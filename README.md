@@ -1,0 +1,115 @@
+# 🚗 BPARK – Automated Parking Management System
+
+BPARK is an automated parking management system developed as a **semester project** for the course  
+**Software Engineering Methods**.
+
+The system is designed to manage an automated parking facility, including vehicle drop-off and pickup,
+subscriber management, parking reservations, and operational reporting.
+
+---
+
+## 🎯 Project Goals
+
+- Efficient management of an automated parking lot
+- Support for subscribers and occasional users
+- Real-time tracking of parking availability
+- Reservation and parking time extension services
+- Generation of operational and statistical reports
+- Design with future web and mobile expansion in mind
+
+---
+
+## 🧩 System Overview
+
+BPARK supports the following core functionalities:
+
+### 👤 User Management
+- Initial registration via parking attendant
+- Unique subscriber ID generation
+- Storage of personal details and parking history
+- Limited profile editing for subscribers
+
+### 🚘 Vehicle Drop-off & Pickup
+- Identification via terminal or tag reader (simulated)
+- Automatic parking code generation
+- Default parking time with extension options
+- Lost parking code recovery via email/SMS
+
+### 📅 Parking Reservation
+- Advance reservations (24 hours to 7 days)
+- Reservation allowed only if at least 40% capacity is available
+- Automatic cancellation if the user does not arrive on time
+
+### 📊 Information & Reports
+- Monthly parking duration reports
+- Subscriber activity statistics
+- Visual representation of system usage
+- Administrative access for parking managers
+
+---
+
+## 🏗️ Architecture
+
+- **Architecture style:** Client–Server (Full Stack)
+- **Backend:** Java, relational database
+- **Frontend:** Desktop-based UI (non-web, Phase 1)
+- **Communication:** LAN-based TCP/IP
+- **External devices:** Simulated (e.g., tag reader)
+
+The system is developed in a way that allows **easy migration to Web and Mobile platforms** in future phases.
+
+---
+
+## 🛠️ Technologies
+
+- Java (Eclipse)
+- Object-Oriented Programming (OOP)
+- UML (Class, Activity, Swimlane diagrams)
+- Relational Database (SQL)
+- Client–Server architecture
+
+---
+
+## 📌 Project Phase
+
+This repository implements **Phase 1** of the project:
+- Fully functional prototype
+- Local network usage only
+- Simulated external hardware
+- Desktop-based user interface
+
+---
+
+## 👥 Team
+
+Developed as a **group project**, with all members participating in:
+- System analysis
+- Design
+- Implementation
+- Testing
+
+---
+
+## 📄 Documentation
+
+- System requirements and specification
+- UML diagrams
+- Acceptance test cases
+- Design and architectural decisions
+
+(See the `docs/` folder for more details.)
+
+---
+
+## 🚀 Future Work
+
+- Web-based interface
+- Mobile application
+- Real hardware integration
+- Internet-based access
+
+---
+
+## 📜 License
+
+This project was developed for academic purposes.
