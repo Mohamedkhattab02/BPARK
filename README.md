@@ -67,3 +67,12 @@ The system is developed in a way that allows **easy migration to Web and Mobile 
 - Relational Database (SQL)
 - Client–Server architecture
 
+---
+
+## 🎥 System Demonstration
+
+A short video explaining the system architecture, core features,
+and user interaction flow is available here:
+
+▶️ [Watch the system explanation video](https://drive.google.com/file/d/13_XR9LdSh5GGeLFC7yP5YkBkM1SzHsdD/view)
+
